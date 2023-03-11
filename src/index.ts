@@ -41,7 +41,7 @@ setInterval(GameLoop, 1000);
 function GameLoop() {
 
     let sendData = [];
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 19; i++) {
         sendData.push(new UpdateData("User_" + i, (Math.round(Math.random() * 200 - 100) / 100), Math.round(Math.random() * 200 - 100) / 100, Math.round(Math.random() * 100) / 100))
     }
 
